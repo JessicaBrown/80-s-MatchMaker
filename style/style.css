@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+}
+.tvChar {
+font-family: monospace;
+    color:yellow;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 20em;
+
+}
+
+
+/*    background-position: center; */
+   
+#top{font-family: fantasy;
+    color:red;
+    font-size: 80px !important;
+    margin-left: 30%; 
+    margin-right: auto;
+    width: 10em;
+    font-weight: bold;
+}
+
+#page1{background:url(https://sp.yimg.com/ib/th?id=JN.sPeXpMM%2bZIQUj6QLsCRUyw&pid=15.1&P=0);
+     background-repeat:no-repeat;
+    background-size: 100% 100%;
+      
+    
+}
