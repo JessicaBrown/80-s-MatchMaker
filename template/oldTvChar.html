@@ -1,9 +1,11 @@
-<a href="#/home">Home</a>
-
 <div id="page1">
- <h1 id="top">Is it a match?</h1>
-  <div class="tvChar" ng-repeat="user in oldTvChar">
-          <a href="/#/oldTvChar/{{$index}}"style="color:Purple">{{user.name | uppercase}} </a> <br> {{user.TVshow | uppercase}} 
-          <br><br> 
-  </div>    
+
+    <h1 id="top">Is it a match?</h1>
+    <div class="tvChar" ng-repeat="star in tvStars">
+
+        <a href="/#/Characters/{{star.routeName}}" style="color: purple ">{{star.name | uppercase}} </a>
+        <br> {{star.TVshow | uppercase}}
+        <br>
+        <br>
+    </div>
 </div>

@@ -1,72 +1,103 @@
-app.service('toonCharService', function($q){
-var oldToonChar = [
+app.service('toonCharService', function () {
+    var oldToonChar = [
         {
-    name: 'Rainbow Brite',
-    age: 38,
-    gender: 'Female',
-    TVshow: 'Rainbow Brite',
+            name: 'Rainbow Brite',
+            age: 43,
+            gender: 'Female',
+            TVshow: 'Rainbow Brite',
+            url: 'images/RainbowB.jpeg',
     },
         {
-    name: 'He-Man',
-    age: 64,
-    gender: 'Male',
-    TVshow: 'He-Man and the Masters of the Universe',
+            name: 'He-Man',
+            age: 64,
+            gender: 'Male',
+            TVshow: 'He-Man and the Masters of the Universe',
+            url: 'images/HeMan.jpeg',
     },
         {
-    name: 'Cheetara',
-    age: 45,
-    gender: 'Female',
-    TVshow: 'ThunderCats',
+            name: 'Cheetara',
+            age: 45,
+            gender: 'Female',
+            TVshow: 'ThunderCats',
+            url: 'images/Cheetara.jpeg',
     },
         {
-    name: 'Lion-O',
-    age: 42,
-    gender: 'Male',
-    TVshow: 'ThunderCats',
+            name: 'Lion-O',
+            age: 42,
+            gender: 'Male',
+            TVshow: 'ThunderCats',
+            url: 'images/LionO.jpeg',
     },
         {
-    name: 'Shaggy',
-    age: 45,
-    gender: 'Male',
-    TVshow: 'Scooby Doo',
+            name: 'Shaggy',
+            age: 45,
+            gender: 'Male',
+            TVshow: 'Scooby Doo',
+            url: 'images/shag.jpeg',
     },
         {
-    name: 'Smurfette',
-    age: 65,
-    gender: 'Female',
-    TVshow: 'The Smurfs',
+            name: 'Smurfette',
+            age: 65,
+            gender: 'Female',
+            TVshow: 'The Smurfs',
+            url: 'images/smurfette2.jpg',
     },
         {
-    name:'She-Ra',
-    age: 42,
-    gender: 'Female',
-    TVshow: 'She-Ra Princess of Power',
+            name: 'She-Ra',
+            age: 42,
+            gender: 'Female',
+            TVshow: 'She-Ra Princess of Power',
+            url: 'images/SheRa.jpg',
     },
         {
-    name: 'Velma',
-    age: 40,
-    gender: 'Female',
-    TVshow: 'Scooby Doo',
+            name: 'Velma',
+            age: 40,
+            gender: 'Female',
+            TVshow: 'Scooby Doo',
+            url: 'images/Velma.jpeg',
     },
         {
-    name: 'Arcee',
-    age: 'Robots dont age!',
-    gender: 'Female',
-    TVshow: 'The Transformers',
+            name: 'Arcee',
+            age: 'Robots dont age!',
+            gender: 'Female',
+            TVshow: 'The Transformers',
+            url: 'images/Arcee.jpg',
     },
-       {
-    name: 'Papa Smurf',
-    age: 98,
-    gender: 'Male',
-    TVshow: 'The Smurfs',
+        {
+            name: 'Papa Smurf',
+            age: 98,
+            gender: 'Male',
+            TVshow: 'The Smurfs',
+            url: 'images/papaSmurf.jpeg',
+    },
+        {
+            name: 'Jem',
+            age: 23,
+            gender: 'Female',
+            TVshow: 'Jem and the Holograms',
+            url: 'images/jem.jpeg',
+    },
+        {
+            name: 'John Brown',
+            age: 39,
+            gender: 'Male',
+            TVshow: 'Inspector Gadget',
+            url: 'images/IG.jpeg',
     },
 ];
 
-//	this.getData = function() { 
-//    //THIS MAKES IT ASYNCRONOUS
-//        var defer = $q.defer();
-//		defer.resolve(oldToonChar);
-//        return defer.promise;
-//	};
 
+    function getRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    this.getToon = function () {
+        var max = oldToonChar.length - 1;
+        var randomChar = oldToonChar[getRandomNumber(0, max)];
+        console.log(randomChar);
+        return randomChar;  
+    }
 });
+
+
+
