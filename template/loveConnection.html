@@ -1,16 +1,18 @@
-<!--
-<a href="#/home">Back</a>
+<a class="back" href="#/ChooseTvChar">Back</a>
 
 
 <br>
--->
 <!--<a href="/#/home" style="color:Purple"> Home</a>-->
 
 <!--   <img id="banner" src="http://www.buzzerblog.com/wp-content/uploads/2015/01/loveconnection.jpg" >-->
 <div class="star">
-    <img id="tvPic" ng-src="{{tvStar.url}}">
-    <img id="lc" src="http://www.buzzerblog.com/wp-content/uploads/2015/01/loveconnection.jpg">
-    <img id="toonPic" ng-src="{{toon.url}}">
+    <img class="tvPic" ng-src="{{tvStar.url}}">
+    <img class="lc" src="http://www.buzzerblog.com/wp-content/uploads/2015/01/loveconnection.jpg">
+ 
+    <img class="toonPic" ng-src="{{toon.url}}">
 </div>
+<div class="tvInfo">{{tvStar.name}} <br> {{tvStar.TVshow}} <br> {{tvStar.gender}}<br> {{tvStar.age}}
 
+</div>    
 
+<div class="toonInfo">{{toon.name}}<br> {{toon.TVshow}} <br> {{toon.gender}}<br> {{toon.age}} </div>

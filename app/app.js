@@ -25,3 +25,4 @@ app.config(function ($routeProvider) {
             redirectTo: '/home'
         })
 });
+

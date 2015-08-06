@@ -3,31 +3,31 @@ app.service('tvCharService', function () {
         {
             name: 'Michael Knight',
             routeName: 'michael_knight',
-            age: 55,
+            age: 63,
             gender: 'Male',
             TVshow: 'Knight Rider',
-            url: 'images/KR.jpeg',
+            url: 'images/MichaelKnight.jpg',
     },
         {
             name: 'Laverne De Fazio',
             routeName: 'laverne_defazio',
-            age: 65,
+            age: 71,
             gender: 'Female',
             TVshow: 'Laverne & Shirley',
-            url: 'images/Laverne.jpeg',
+            url: 'images/Laverneeeee.jpeg',
     },
         {
             name: 'Al Bundy',
             routeName: 'al_bundy',
-            age: 55,
+            age: 69,
             gender: 'Male',
             TVshow: 'Married with Children',
-            url: 'images/alBundy.jpeg',
+            url: 'images/alllll.jpg',
     },
         {
             name: 'Murphy Brown',
             routeName: 'murphy_brown' ,
-            age: 48,
+            age: 69,
             gender: 'Female',
             TVshow: 'Murphy Brown',
             url: 'images/murph.jpg'
@@ -35,50 +35,50 @@ app.service('tvCharService', function () {
         {
             name: 'Mike Seaver',
             routeName: 'mike_seaver',
-            age: 45,
+            age: 44,
             gender: 'Male',
             TVshow: 'Growing Pains',
-            url: 'images/Mike.jpeg',
+            url: 'images/mike-seaver.jpg',
     },
         {
             name: 'Angus MacGyver',
             routeName: 'angus_macgyver',
-            age: 45,
+            age: 65,
             gender: 'Male',
             TVshow: 'MacGyver',
-            url: 'images/Mac.jpeg',
+            url: 'images/MACMAN.jpg',
     },
         {
             name: 'Daisy Duke',
             routeName:'daisy_duke' ,
-            age: 33,
+            age: 61,
             gender: 'Female',
             TVshow: 'The Dukes of Hazzard',
-            url: 'images/DD.jpg',
+            url: 'images/fffdais.jpg',
     },
         {
             name: 'Blair Warner',
             routeName: 'blair_warner',
-            age: 45,
+            age: 52,
             gender: 'Female',
             TVshow: 'The Facts of Life',
-            url: 'images/BlairW.jpg',
+            url: 'images/blllair.jpg',
     },
         {
             name: 'Rose Nylund',
             routeName: 'rose_nylund',
-            age: 65,
+            age: 93,
             gender: 'Female',
             TVshow: 'The Golden Girls',
-            url: 'images/Rosie.jpeg',
+            url: 'images/RRosie.jpg',
     },
         {
             name: 'Alex P. Keaton',
             routeName: 'alex_keaton',
-            age: 55,
+            age: 54,
             gender: 'Male',
             TVshow: 'The Facts of Life',
-            url: 'images/AlexK.jpeg',
+            url: 'images/alexxx.jpeg',
     },
 ];
 
@@ -91,6 +91,9 @@ app.service('tvCharService', function () {
         //   return defer.promise;
         return oldTvChar;
     };
+    //************************************
+    //        connects tvChar data 
+    //************************************
     this.getConnectionChar = function(Char){
     for(var i = 0; i < oldTvChar.length; i++){
         if(Char === oldTvChar[i].routeName){

@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="matchMaker">
+
 <head>
     <meta charset="UTF-8">
+   
     <link rel="stylesheet" href="style/style.css">
+
     <title>MatchMaker</title>
-</head>
-    <body>
-        <div class="menu">
-        <ul> 
-          <li><a href="/#/home"> Home </a></li>
-          <li><a href="/#/ChooseTvChar"> Choose a TV Star!</a></li>
-        </ul>
-      </div>
     
-        <!--Routing-->
-        <ng-view></ng-view>
-    
-        <!--Link Angular Library-->
-        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js'></script>
-        <!--Link Angular Route-->
-        <script src='https://code.angularjs.org/1.4.3/angular-route.js'></script>
-        <!--Link Angular App-->
-        <script src='app/app.js'></script>
-        <!--Link Angular Controller-->
-        <script src='controller/tvCharCtrl.js'></script>
-        <script src='controller/loveConnectionCtrl.js'></script>
-        <script src='controller/homeCtrl.js'></script>
-        <!--Link Angular Service-->
-        <script src='service/toonCharService.js'></script>
-        <script src='service/tvCharService.js'></script>
-        <script src='service/homeService.js'></script>
-    </body>
+
+<body>
+
+
+    <!--Routing-->
+    <ng-view></ng-view>
+
+
+
+    <!-- JQuery-->
+    <script src='http://code.jquery.com/jquery-2.1.4.js'></script>
+    <!--Link Angular Library-->
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js'></script>
+    <!--Link Angular Route-->
+    <script src='https://code.angularjs.org/1.4.3/angular-route.js'></script>
+     <!-- Carousel JQuery-->
+    <script src='http://code.jquery.com/jquery-2.1.4.js'></script>
+
+    <!--Link Angular App-->
+    <script src='app/app.js'></script>
+    <script src='app/main.js'></script>
+    <!--Link Angular Controller-->
+    <script src='controller/tvCharCtrl.js'></script>
+    <script src='controller/loveConnectionCtrl.js'></script>
+    <script src='controller/homeCtrl.js'></script>
+    <!--Link Angular Service-->
+    <script src='service/toonCharService.js'></script>
+    <script src='service/tvCharService.js'></script>
+    <script src='service/homeService.js'></script>
+</body>
+
 </html>
