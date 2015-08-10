@@ -5,6 +5,7 @@ app.service('toonCharService', function () {
             age: 43,
             gender: 'Female',
             TVshow: 'Rainbow Brite',
+            bio: 'I love clouds and all the colors of the rainbow!',
             url: 'images/RainbowB.jpeg',
     },
         {
@@ -12,6 +13,7 @@ app.service('toonCharService', function () {
             age: 64,
             gender: 'Male',
             TVshow: 'Masters of the Universe',
+            bio: 'I like pina coladas and getting caught in the rain.',
             url: 'images/HeMan.jpeg',
     },
         {
@@ -19,6 +21,7 @@ app.service('toonCharService', function () {
             age: 45,
             gender: 'Female',
             TVshow: 'ThunderCats',
+            bio: 'I am very fast and love to race!',
             url: 'images/Cheetara.jpeg',
     },
         {
@@ -26,6 +29,7 @@ app.service('toonCharService', function () {
             age: 42,
             gender: 'Male',
             TVshow: 'ThunderCats',
+            bio: 'ThunderCat... ThunderCat... Hooo!!',
             url: 'images/LionO.jpeg',
     },
         {
@@ -33,6 +37,7 @@ app.service('toonCharService', function () {
             age: 45,
             gender: 'Male',
             TVshow: 'Scooby Doo',
+            bio: 'What is for dinner? I am always hungry!',
             url: 'images/shag.jpeg',
     },
         {
@@ -40,6 +45,7 @@ app.service('toonCharService', function () {
             age: 65,
             gender: 'Female',
             TVshow: 'The Smurfs',
+            bio: 'I love my Mushroom house and playing with Gargamel.',
             url: 'images/smurfette2.jpg',
     },
         {
@@ -47,6 +53,7 @@ app.service('toonCharService', function () {
             age: 42,
             gender: 'Female',
             TVshow: 'Princess of Power',
+            bio: 'I feel Princess of Power pretty much sums it up.',
             url: 'images/SheRa.jpg',
     },
         {
@@ -54,6 +61,7 @@ app.service('toonCharService', function () {
             age: 48,
             gender: 'Female',
             TVshow: 'Scooby Doo',
+            bio: 'I love books and solving mysteries.',
             url: 'images/Velma.jpeg',
     },
         {
@@ -61,6 +69,7 @@ app.service('toonCharService', function () {
             age: 'Robots do not age!',
             gender: 'Female',
             TVshow: 'The Transformers',
+            bio: 'I am the only girl robot I know and am still single.',
             url: 'images/Arcee.jpg',
     },
         {
@@ -68,6 +77,7 @@ app.service('toonCharService', function () {
             age: 246,
             gender: 'Male',
             TVshow: 'The Smurfs',
+            bio: 'I like potions and running through the woods.',
             url: 'images/papaSmurf.jpeg',
     },
         {
@@ -75,6 +85,7 @@ app.service('toonCharService', function () {
             age: 34,
             gender: 'Female',
             TVshow: 'Jem and the Holograms',
+            bio: 'I love all things that are fabulous!!',
             url: 'images/jem.jpeg',
     },
         {
@@ -82,6 +93,7 @@ app.service('toonCharService', function () {
             age: 39,
             gender: 'Male',
             TVshow: 'Inspector Gadget',
+            bio: 'My favorite past time is flying using my hat.',
             url: 'images/IG.jpeg',
     },
 ];

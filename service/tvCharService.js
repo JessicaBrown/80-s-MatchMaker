@@ -6,6 +6,7 @@ app.service('tvCharService', function () {
             age: 63,
             gender: 'Male',
             TVshow: 'Knight Rider',
+            bio: 'I love my car named kit and singing in german!',
             url: 'images/MichaelKnight.jpg',
     },
         {
@@ -14,6 +15,7 @@ app.service('tvCharService', function () {
             age: 71,
             gender: 'Female',
             TVshow: 'Laverne & Shirley',
+            bio: 'I really enjoy working in the packaging plant and skipping.',
             url: 'images/Laverneeeee.jpeg',
     },
         {
@@ -22,15 +24,17 @@ app.service('tvCharService', function () {
             age: 69,
             gender: 'Male',
             TVshow: 'Married with Children',
+            bio: 'I hate everything. Espcially people with wide feet!',
             url: 'images/alllll.jpg',
     },
         {
-            name: 'Murphy Brown',
-            routeName: 'murphy_brown' ,
+            name: 'Mr. T',
+            routeName: 'mr_t' ,
             age: 69,
-            gender: 'Female',
-            TVshow: 'Murphy Brown',
-            url: 'images/murph.jpg'
+            gender: 'Male',
+            TVshow: 'A-Team',
+            bio: 'I pitty the fool. All the fools. Everywhere!',
+            url: 'images/mrtlc.jpeg'
     },
         {
             name: 'Mike Seaver',
@@ -38,6 +42,7 @@ app.service('tvCharService', function () {
             age: 44,
             gender: 'Male',
             TVshow: 'Growing Pains',
+            bio: 'I like causing trouble and making fun of my family.', 
             url: 'images/mike-seaver.jpg',
     },
         {
@@ -46,6 +51,7 @@ app.service('tvCharService', function () {
             age: 65,
             gender: 'Male',
             TVshow: 'MacGyver',
+            bio: 'I like loud things that go BOOM!',
             url: 'images/MACMAN.jpg',
     },
         {
@@ -54,6 +60,7 @@ app.service('tvCharService', function () {
             age: 61,
             gender: 'Female',
             TVshow: 'The Dukes of Hazzard',
+            bio: 'My favorite pastime is staring into space.',
             url: 'images/fffdais.jpg',
     },
         {
@@ -62,6 +69,7 @@ app.service('tvCharService', function () {
             age: 52,
             gender: 'Female',
             TVshow: 'The Facts of Life',
+            bio: 'You take the good, you take the bad...!',
             url: 'images/blllair.jpg',
     },
         {
@@ -70,6 +78,7 @@ app.service('tvCharService', function () {
             age: 93,
             gender: 'Female',
             TVshow: 'The Golden Girls',
+            bio: 'In Saint Olaf I ran with the goats.',
             url: 'images/RRosie.jpg',
     },
         {
@@ -77,6 +86,7 @@ app.service('tvCharService', function () {
             routeName: 'alex_keaton',
             age: 54,
             gender: 'Male',
+            bio: 'Alex P. Keaton for president!',
             TVshow: 'The Facts of Life',
             url: 'images/alexxx.jpeg',
     },
